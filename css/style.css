@@ -464,8 +464,15 @@ h3.match-to-photo {
 	}
 }
 
+@media screen and (max-width: 480px){
+	body {
+		font-size: 4.5em;
+	}
+}
+
 /*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
-}*/
+
+  /*when mobile, font size of body = 4.5em*/
 
 /*media query: at 1100px width make the logo smaller to accommodate the nav bar*/
